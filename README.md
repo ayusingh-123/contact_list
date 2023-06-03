@@ -21,3 +21,5 @@ npm install react-router-dom bootstrap
 
 npm install nodemon express mongoose bcryptjs cors jsonwebtoken
 
+# Install concurrently to run multiple scripts
+npm i concurrently
