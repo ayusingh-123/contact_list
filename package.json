@@ -8,7 +8,7 @@
     "backend": "nodemon ./backend/app.js",
     "frontend": "cd frontend && npm start",
     "json": "cd frontend && json-server --watch db.json --port 8000",
-    "dev": " concurrently \"npm run backend\" \"npm run frontend\" \"npm run json\" "
+    "start": " concurrently \"npm run backend\" \"npm run frontend\" \"npm run json\" "
   },
   "author": "",
   "license": "ISC",
